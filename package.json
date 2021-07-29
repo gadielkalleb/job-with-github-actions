@@ -1,0 +1,15 @@
+{
+  "name": "job-get-data",
+  "version": "1.0.0",
+  "description": "run jobs with github actions",
+  "scripts": {
+    "getData": "node src/donwloadAndRawCsv.js",
+    "parseData": "node src/parseCsvAndUpdateDB.JS"
+  },
+  "author": "Gadiel Kaleb",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "csv-parser": "^2.3.2"
+  }
+}
