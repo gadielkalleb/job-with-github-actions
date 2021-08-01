@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "run jobs with github actions",
   "scripts": {
-    "getData": "node src/donwloadAndRawCsv.js",
+    "getData": "node src/donwloadAndRaw.js",
     "parseData": "node src/parseCsvAndUpdateDB.JS"
   },
   "author": "Gadiel Kaleb",
