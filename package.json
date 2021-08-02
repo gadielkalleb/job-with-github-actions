@@ -4,7 +4,7 @@
   "description": "run jobs with github actions",
   "scripts": {
     "getData": "node src/donwloadAndRaw.js",
-    "parseData": "node src/parseCsvAndUpdateDB.JS"
+    "parseData": "node src/parseCsvAndUpdateDB.js"
   },
   "author": "Gadiel Kaleb",
   "license": "MIT",
