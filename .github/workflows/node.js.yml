@@ -37,7 +37,8 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@noreplay.com"
         git config --local user.name "github-actions[bot]"
-        git commit -m ":calendar: get data" -a
+        git add bucket/
+        git commit -m "get data"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
